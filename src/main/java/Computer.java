@@ -63,10 +63,10 @@ public class Computer {
 
     @Override
     public String toString() {
-        String computerString = ("Company:"+ " "+ this.company + " "+
-                                 "MainBord:"+ " "+ this.mainBoard+ "  " +
-                                 "RAM:  "+ " "+this.ram+ " Gb"+ " "+
-                                  "ssd: "+this.ssd+ " Tb");
+        String computerString = ("Company: "+ this.company + " "+
+                                 "MainBord: "+ this.mainBoard+ " " +
+                                 "RAM: "+ this.ram+ " Gb"+ " "+
+                                  "ssd: "+ this.ssd+ " Tb");
 
         return computerString;
 }
