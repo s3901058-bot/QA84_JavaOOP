@@ -20,15 +20,15 @@ public class Lesson_6_MainBooks
         HW4____________________________________________________________________
          */
 
-        PersonHW4 mainPerson= new PersonHW4("John Doe",25,150.06000);
+        PersonHW4 mainPerson= new PersonHW4("John Doe",25,1000000050000000L);
         System.out.println(mainPerson);
-        Employershw4 Employers= new Employershw4("John Doe",25,150.06000,"Microsoft",10000);
+        Employershw4 Employers= new Employershw4("John Doe",25,4000005050000000L,"Microsoft",10000);
         System.out.println(Employers);
-        SalesEmployee SalesEmployee1= new SalesEmployee("John Doe",25,150.06000,"Microsoft",10000,152);
+        SalesEmployee SalesEmployee1= new SalesEmployee("John Doe",25,1000000000000000L,"Microsoft",10000,152);
         System.out.println(SalesEmployee1);
-        SportsManhw4 SportsMan= new SportsManhw4("John Doe",25,150.06000,"Running",true);
+        SportsManhw4 SportsMan= new SportsManhw4("John Doe",25,1000000000000000L,"Running",true);
         System.out.println(SportsMan);
-        Patienthw4 Patient= new Patienthw4("John Doe",25,150.06000,452007752);
+        Patienthw4 Patient= new Patienthw4("John Doe",25,1000000000000000L,452007752);
         System.out.println(Patient);
 
 

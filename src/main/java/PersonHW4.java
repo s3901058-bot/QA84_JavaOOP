@@ -1,15 +1,15 @@
 public class PersonHW4 {
     private String name;
     private int age;
-    private double id;
+    private long id;
 
     public PersonHW4() {}
 
-    public PersonHW4(String name, int age, double id) {
+    public PersonHW4(String name, int age, long id) {
         super();
         this.name = name;
         this.age = age;
-        this.id = id;
+        setId(id);
     }
 
     public void setName(String name)
@@ -23,8 +23,8 @@ public class PersonHW4 {
         this.age = age;
     }
 
-    public void setId(double id) {
-        if(id >= 0)
+    public void setId(long id) {
+        if (id >= 1000000000000000L && id <= 9999999999999999L) // Проверка на 16 символов если их меньше чем 16 то выводить не будет нечего
         this.id = id;
     }
 

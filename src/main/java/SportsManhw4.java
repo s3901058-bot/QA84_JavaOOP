@@ -4,7 +4,7 @@ public class SportsManhw4 extends PersonHW4 {
 
     public SportsManhw4() {}
 
-    public SportsManhw4(String name, int age, double id, String sport, boolean status ) {
+    public SportsManhw4(String name, int age, long id, String sport, boolean status ) {
         super(name, age, id);
         this.sport = sport;
         this.status = status;

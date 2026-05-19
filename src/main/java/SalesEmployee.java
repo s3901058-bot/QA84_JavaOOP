@@ -3,7 +3,7 @@ public class SalesEmployee extends Employershw4 {
 
     public SalesEmployee() { }
 
-    public SalesEmployee(String name, int age, double id, String company, int salary, int bonus) {
+    public SalesEmployee(String name, int age, long id, String company, int salary, int bonus) {
         super(name, age, id, company, salary);
         this.bonus = bonus;
     }

@@ -3,7 +3,7 @@ public class Patienthw4 extends PersonHW4{
 
     public Patienthw4() {}
 
-    public Patienthw4(String name, int age, double id, int idCardInsurance) {
+    public Patienthw4(String name, int age, long id, int idCardInsurance) {
         super(name, age, id);
         this.idCardInsurance = idCardInsurance;
     }

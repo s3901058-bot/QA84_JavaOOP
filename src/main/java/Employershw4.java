@@ -4,7 +4,7 @@ public class Employershw4 extends PersonHW4{
 
     public Employershw4(){}
 
-    public Employershw4(String name, int age, double id, String company, int salary) {
+    public Employershw4(String name, int age, long id, String company, int salary) {
         super(name, age, id);
         this.company = company;
         this.salary = salary;
@@ -16,7 +16,7 @@ public class Employershw4 extends PersonHW4{
     }
 
     public void setSalary(int salary) {
-        if(salary >0 && salary< 9000)
+        if(salary >= 16 && salary <= 17)
         this.salary = salary;
     }
 
