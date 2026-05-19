@@ -5,6 +5,8 @@ public class Computer {
     private String cpu;
     private int ssd;
 
+    public Computer() {}
+
     public Computer(String company, String mainBoard, int ram, String cpu, int ssd){
         super();
         this.company = company;

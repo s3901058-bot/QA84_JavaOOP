@@ -54,8 +54,9 @@ public class Book /*extends Object*/
 
     @Override
     public String toString() {
-        String bookString = ("Author: " + this.author+ " "+ "Title: " + " "+ this.title +  "Pages:  "  + " "+ this.pages + " "+ "ISBN: "  + " "+ this.isbn);
-        return bookString;
+        return "Author: " + this.author
+                + " Title: " + this.title
+                + " Pages: " + this.pages
+                + " ISBN: " + this.isbn;
     }
-
 }

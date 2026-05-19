@@ -70,7 +70,15 @@ __________________________________________
 2.Advance
 for your choose
 
+HW2
 
+                   PersonHW4 [name,id,age]
+                |              |           |
+          Employershw4       SportsManhw4   Patienthw4
+        [company,salary]  [Sport]      [idCardInsurance]
+            |
+         SalesEmployee
+         [bonus]
 
 
 
