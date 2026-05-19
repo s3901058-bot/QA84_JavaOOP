@@ -13,6 +13,7 @@ public class Patienthw4 extends PersonHW4{
     }
 
     public void setIdCardInsurance(int idCardInsurance) {
+        if(idCardInsurance > 0 )
         this.idCardInsurance = idCardInsurance;
     }
 
