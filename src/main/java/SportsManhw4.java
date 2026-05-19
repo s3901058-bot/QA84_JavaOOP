@@ -1,11 +1,14 @@
 public class SportsManhw4 extends PersonHW4 {
     private String sport;
+    private boolean status;
 
     public SportsManhw4() {}
 
-    public SportsManhw4(String name, int age, double id, String sport) {
+    public SportsManhw4(String name, int age, double id, String sport, boolean status ) {
         super(name, age, id);
-        setSport(sport);
+        this.sport = sport;
+        this.status = status;
+
     }
 
     public void setSport(String sport) {
@@ -21,6 +24,7 @@ public class SportsManhw4 extends PersonHW4 {
     @Override
     public String toString() {
         return super.toString()
-                + ", Sport: " + sport;
+                + ", Sport: " + sport
+                + ", Status: " + status;
     }
 }
