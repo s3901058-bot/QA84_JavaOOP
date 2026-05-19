@@ -26,9 +26,9 @@ public class Lesson_6_MainBooks
         System.out.println(Employers);
         SalesEmployee SalesEmployee1= new SalesEmployee("John Doe",25,150.06000,"Microsoft",10000,152);
         System.out.println(SalesEmployee1);
-        SportsManhw4 SportsMan= new SportsManhw4("John Doe",25,0100.06000,"Running");
+        SportsManhw4 SportsMan= new SportsManhw4("John Doe",25,150.06000,"Running");
         System.out.println(SportsMan);
-        Patienthw4 Patient= new Patienthw4("John Doe",25,0100.06000,452007752);
+        Patienthw4 Patient= new Patienthw4("John Doe",25,150.06000,452007752);
         System.out.println(Patient);
 
 
