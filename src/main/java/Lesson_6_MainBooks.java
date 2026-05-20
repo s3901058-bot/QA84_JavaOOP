@@ -22,13 +22,13 @@ public class Lesson_6_MainBooks
 
         PersonHW4 mainPerson= new PersonHW4("John Doe",25,1000000050000000L);
         System.out.println(mainPerson);
-        Employershw4 Employers= new Employershw4("John Doe",25,4000005050000000L,"Microsoft",10000);
+        Employershw4 Employers= new Employershw4("John Doe",25,4000000505000000L,"Microsoft",10000);
         System.out.println(Employers);
-        SalesEmployee SalesEmployee1= new SalesEmployee("John Doe",25,1000000000000000L,"Microsoft",10000,152);
+        SalesEmployee SalesEmployee1= new SalesEmployee("John Doe",25,6000000000000000L,"Microsoft",10000,152);
         System.out.println(SalesEmployee1);
         SportsManhw4 SportsMan= new SportsManhw4("John Doe",25,1000000000000000L,"Running",true);
         System.out.println(SportsMan);
-        Patienthw4 Patient= new Patienthw4("John Doe",25,1000000000000000L,452007752);
+        Patienthw4 Patient= new Patienthw4("John Doe",25,666655556666715L,452007752); // Этот ID Меньше чем 16 симолов и по этому выводиться надпись Invalid ID
         System.out.println(Patient);
 
 

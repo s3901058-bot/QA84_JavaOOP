@@ -15,17 +15,20 @@ public class PersonHW4 {
     public void setName(String name)
     {
         if(name != null)
-        this.name = name;
+            this.name = name;
     }
 
     public void setAge(int age) {
         if(age >= 0 && age <= 70)
-        this.age = age;
+            this.age = age;
     }
 
     public void setId(long id) {
-        if (id >= 1000000000000000L && id <= 9999999999999999L) // Проверка на 16 символов если их меньше чем 16 то выводить не будет нечего
-        this.id = id;
+        if (id >= 1000000000000000L && id <= 9999999999999999L) {
+            this.id = id;
+        } else {
+            this.id = -1;
+        }
     }
 
     public String getName() {
@@ -42,8 +45,16 @@ public class PersonHW4 {
 
     @Override
     public String toString() {
+        String idText;
+
+        if (id == -1) {
+            idText = "Invalid ID";
+        } else {
+            idText = String.valueOf(id);
+        }
+
         return "Name: " + name
                 + ", Age: " + age
-                + ", Id: " + id;
+                + ", Id: " + idText;
     }
 }
