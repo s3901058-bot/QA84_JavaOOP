@@ -48,9 +48,9 @@ public class PersonHW4 {
         String idText;
 
         if (id == -1) {
-            idText = "Invalid ID";
+            idText = "Invalid ID"; // Если ID равен -1 то тогда выводит текс
         } else {
-            idText = String.valueOf(id);
+            idText = String.valueOf(id);//  если айди равен 16 то выводим строку с 16 айди цыфрами
         }
 
         return "Name: " + name
