@@ -45,12 +45,12 @@ public class PersonHW4 {
 
     @Override
     public String toString() {
-        String idText;
+        String idText;  // временная переменная для текста, который будет выводиться вместо ID
 
         if (id == -1) {
-            idText = "Invalid ID"; // Если ID равен -1 то тогда выводит текс
+            idText = "Invalid ID"; // если айди невалидный вместо -1 выводим текст
         } else {
-            idText = String.valueOf(id);//  если айди равен 16 то выводим строку с 16 айди цыфрами
+            idText = String.valueOf(id);//  если айди валидный превращаем число id в строку
         }
 
         return "Name: " + name
